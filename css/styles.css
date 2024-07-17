@@ -138,6 +138,7 @@ footer img {
 }
 
 
+
 @media screen and (max-width: 800px) {
     .grid-galeria {
         grid-template-columns: repeat(2,1fr);
@@ -192,6 +193,17 @@ footer img {
     }
     .hero a {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .marcas-main h2 {
+        font-size: 35px;
+    }
+    .marcas-main p {
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 

@@ -128,7 +128,6 @@ footer img {
     width: 48px;
     height: 48px;
 }
-    
 /*!--NOSOTROS,MARCAS,ETC.--!*/
 
 .nosotros h2 {
@@ -137,7 +136,7 @@ footer img {
     padding: 20px;
 }
 
-
+/*!-- MEDIA --!*/
 
 @media screen and (max-width: 800px) {
     .grid-galeria {

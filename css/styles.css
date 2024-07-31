@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-    font-family: "Montserrat", sans-serif;
 }
 
-/*!--- NAV --!*/
+body {
+    font-family: "Monserrat", sans-serif;
+}
+/*!--- HEADER --!*/
 
 .navbar {
     background-color: burlywood;

@@ -25,7 +25,6 @@ h2 {
 .promo {
     width: 100%;
     display: flex;
-    margin: auto;
     margin: 10px;
     justify-content: space-around;
     flex-direction: row;

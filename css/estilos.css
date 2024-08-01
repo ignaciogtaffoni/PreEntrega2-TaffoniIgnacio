@@ -10,3 +10,92 @@ body {
 
 .navbar {
   background-color: burlywood; }
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px; }
+
+.hero {
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .hero h2 {
+    font-size: 50px;
+    color: black;
+    padding-top: 30px; }
+  .hero p {
+    margin-bottom: 30px;
+    color: black;
+    font-size: 20px; }
+  .hero a {
+    background-color: burlywood;
+    text-decoration: none;
+    padding: 15px;
+    color: black; }
+
+.hero a:hover {
+  background-color: white; }
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: burlywood;
+  flex-wrap: wrap;
+  margin-top: 50px; }
+  footer img {
+    width: 48px;
+    height: 48px; }
+
+@media screen and (max-width: 800px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px; }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; }
+  .img-9 {
+    grid-column: span 2; } }
+
+@media screen and (max-width: 450px) {
+  .grid-galeria {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 220px; }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+@media screen and (max-width: 600px) {
+  .hero h2 {
+    font-size: 35px; }
+  .hero p {
+    font-size: 16px; } }
+
+@media screen and (max-width: 450px) {
+  .hero h2 {
+    font-size: 29px; }
+  .hero p {
+    font-size: 19px; }
+  .hero a {
+    font-size: 15px; } }
+
+@media screen and (max-width: 350px) {
+  .hero h2 {
+    font-size: 20px; }
+  .hero p {
+    font-size: 15px; }
+  .hero a {
+    font-size: 12px; } }
+
+@media screen and (max-width: 600px) {
+  .marcas-main h2 {
+    font-size: 35px; }
+  .marcas-main p {
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px; } }

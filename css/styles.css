@@ -128,6 +128,17 @@ footer img {
     width: 48px;
     height: 48px;
 }
+
+.sociales {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.formulario {
+    margin: 5px;
+}
+
 /*!--NOSOTROS,MARCAS,ETC.--!*/
 
 .nosotros h2 {

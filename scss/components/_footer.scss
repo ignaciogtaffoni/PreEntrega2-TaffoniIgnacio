@@ -4,8 +4,33 @@ footer {
     background-color: burlywood;
     flex-wrap: wrap;
     margin-top: 50px;
-    img {
-        width: 48px;
-        height: 48px;
-    }
+}
+
+footer img {
+    width: 48px;
+    height: 48px;
+}
+
+.sociales {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.formulario {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+}
+
+.formulario-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.formulario-input {
+    width:  300px;
 }

@@ -159,6 +159,11 @@ h2 {
   border: 2px solid cyan;
   transition: 250ms; }
 
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto,1fr,auto; }
+
 footer {
   width: 100%;
   height: auto;

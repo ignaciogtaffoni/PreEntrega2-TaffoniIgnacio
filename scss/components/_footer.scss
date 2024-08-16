@@ -1,6 +1,6 @@
 footer {
     width:100%;
-    height: 200px;
+    height: auto;
     background-color: burlywood;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -22,7 +22,7 @@ footer img {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 450px;
+    width: 300px;
 }
 
 .formulario-item {

@@ -98,3 +98,15 @@
         height: 100px;
     }
 }
+
+@media screen and (min-width:450px) {   
+    .formulario-item {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+    
+    .formulario-input {
+        width:  300px;
+    }
+}
